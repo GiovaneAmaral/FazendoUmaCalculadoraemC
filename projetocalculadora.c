@@ -28,7 +28,7 @@ int main() {
                 resultado = num1 / num2;
             } else {
                 printf("Erro: Divisão por zero não é permitida!\n");
-                return 1; // Retorna um código de erro
+                return 1; 
             }
             break;
         case '%':
@@ -36,12 +36,12 @@ int main() {
                 resultado = (int)num1 % (int)num2;
             } else {
                 printf("Erro: Resto da divisão por zero não é permitido!\n");
-                return 1; // Retorna um código de erro
+                return 1; 
             }
             break;
         default:
             printf("Erro: Operador inválido!\n");
-            return 1; // Retorna um código de erro
+            return 1; 
     }
 
     printf("Resultado: %.2lf\n", resultado);
